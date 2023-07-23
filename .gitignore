@@ -1,0 +1,6 @@
+/.vscode
+node_modules
+/plugins/
+/melody/platforms/
+
+.DS_Store
