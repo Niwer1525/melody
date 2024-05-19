@@ -1,0 +1,76 @@
+:root {
+    /* Color palette */
+    --red: #ef3d3f;
+    --yellow: #f1ec00;
+    --light-blue: #1e98b5;
+    --purple: #4a297e;
+    --beige: #e0d8c4;
+    --pink: #db54a5;
+    --magenta: #e6037d;
+    --teal: #00cac8;
+    --dark-blue: #0086d5;
+    --navy-blue: #17255f;
+}
+
+/* Arcade Classic font */
+@font-face {
+	font-family: 'arcadeclassic';
+	src: url(../fonts/arcadeclassic.ttf) format(truetype)
+}
+
+/* Quiglew font */
+@font-face {
+	font-family: 'quiglew';
+	src: url(../fonts/quiglew.ttf) format(truetype)
+}
+
+* {
+    /* Default styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: var(--beige);
+}
+
+*:hover {
+    transition: 0.5s;
+    color: var(--magenta);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+body {
+    font-family: 'arcadeclassic', sans-serif;
+    font-size: 2rem;
+    background-image: url(../images/background.jpg);
+    backdrop-filter: blur(10px);
+}
+
+.header-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.header-curve svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 256px;
+    transform: rotateY(180deg);
+}
+
+.header-curve .shape-fill {
+    fill: var(--navy-blue);
+}

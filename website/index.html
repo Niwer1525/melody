@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <script src="./js/i18n.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/logo_noback.png">
+</head>
+<body>
+    <header>
+        <img src="./images/logo_noback.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                <li><a href="index.html" data-i18n="btn_download">default</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="header-curve">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing eli
+            t. Sed ac felis ut libero ultrices luctus. Nullam
+            scelerisque, nunc nec interdum luctus, nisl turpis
+        </p>
+    </main>
+    <footer>
+        <p data-i18n="footer_text"></p>
+    </footer>
+</body>
+</html>
