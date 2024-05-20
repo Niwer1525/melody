@@ -1,3 +1,10 @@
+// Load the saved or default language on page load.
+window.onload = async function() {
+    const lang = localStorage.getItem('language') || 'en';
+    const langData = await fetchLanguageData(lang);
+    updateContent(langData);
+};
+
 /**
  * Update the content of the page with the provided language data.
  * @param {*} langData The language data to update the page with.
@@ -5,7 +12,7 @@
 function updateContent(langData) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
-        element.textContent = langData[key];
+        element.innerHTML = langData[key];
     });
 }
 
@@ -39,7 +46,7 @@ async function fetchLanguageData(lang) {
  */
 async function changeLanguage(lang) {
     setLanguagePreference(lang);
-
+    
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
 }

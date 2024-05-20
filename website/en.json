@@ -1,5 +1,24 @@
 {   
+    "btn_github": "github",
     "btn_download": "download",
+    "btn_web_version": "web version",
+    "btn_macos": "macOS",
+    "btn_windows": "Windows",
+    "btn_linux": "Linux",
+    "btn_ios": "iOS",
+    "btn_android": "Android",
+
+    "title_what": "Who are we? What's <span>Melody<span> ? 🤔",
+    "content_what": "Melody is a indie music app entierly free and open source. It's available for <span>macOS, Windows, Linux, iOS and Android (+ A web version)</span>. It's a simple and easy to use music player that allows you to listen to your favorite music <span>without any ads or interruptions</span>. Melody is designed to be <span>fast and lightweight</span>, so you can enjoy your music without any distractions. <span>Melody is also made in the style of the 90' using 'Cassettes tapes' and a 'physical' player interface.<span>",
+
+    "title_contribute": "How to contribute? 🤝",
+    "content_contribute": "Melody is an open source project, so you can contribute to it on <a href=\"https://github.com/Niwer1525/melody\" target=\"_blank\"><span>GitHub</span></a>. You can help by <span>reporting bugs, suggesting new features, or even contributing code</span>. If you're a developer, you can also help by fixing bugs, adding new features, or improving the codebase. If you're not a developer, you can still help by testing the app, providing feedback, or even just spreading the word. No matter how you choose to contribute, your help is greatly appreciated.",
+    
+    "title_who": "Who are we? 🤔",
+    "content_who": "Melody is developed by <span>Niwer</span> (me) and my brother <span>R3DHACK</span>. We're students who love music when learning or working and we know too well the struggle of finding a good music player that's simple, fast, and free. That's why we decided to create Melody. We wanted to make a music player that we would enjoy using ourselves, and we hope that you'll enjoy using it too. We're always looking for ways to improve Melody, so if you have any feedback or suggestions, please let us know. We'd love to hear from you!",
+
+    "title_donate": "How to donate? 💸",
+    "content_donate": "Melody is a free and open source project, so you can use it without paying anything. However, if you'd like to support the project, you can donate to the developer. You can donate via <a href=\"https://www.paypal.com/paypalme/Niwer1525\" target=\"_blank\"><span>PayPal</span></a> or <a href=\"https://www.buymeacoffee.com/niwer1525\" target=\"_blank\"><span>Buy Me A Coffee</span></a>. Your donation will help to cover the costs of hosting, domain, and other expenses related to the project. Your support is greatly appreciated.",
 
     "footer_text": "© 2023 All rights reserved."
 }
