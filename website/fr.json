@@ -1,0 +1,24 @@
+{   
+    "btn_github": "github",
+    "btn_download": "download",
+    "btn_web_version": "version web",
+    "btn_macos": "macOS",
+    "btn_windows": "Windows",
+    "btn_linux": "Linux",
+    "btn_ios": "iOS",
+    "btn_android": "Android",
+
+    "title_what": "Qu'est-ce que <span>Melody<span> ? 🤔",
+    "content_what": "Melody est une application de musique indé entièrement gratuite et open source. Elle est disponible pour <span>macOS, Windows, Linux, iOS et Android (+ une version web)</span>. C'est un lecteur de musique simple et facile à utiliser qui vous permet d'écouter votre musique préférée <span>sans aucune publicité ni interruption</span>. Melody est conçue pour être <span>rapide et légère</span>, afin que vous puissiez profiter de votre musique sans aucune distraction. <span>Melody est également faite dans le style des années 90 en utilisant des 'cassettes' et un lecteur cassette 'physique'.<span>",
+
+    "title_contribute": "Comment contribuer? 🤝",
+    "content_contribute": "Melody est un projet open source, vous pouvez donc y contribuer sur <a href=\"https://github.com/Niwer1525/melody\" target=\"_blank\"><span>GitHub</span></a>. Vous pouvez aider en <span>signalant des bugs, en suggérant de nouvelles fonctionnalités, ou même en contribuant au code</span>. Si vous êtes développeur, vous pouvez également aider en corrigeant des bugs, en ajoutant de nouvelles fonctionnalités, ou en améliorant la base de code. Si vous n'êtes pas développeur, vous pouvez quand même aider en testant l'application, en fournissant des retours, ou même simplement en faisant passer le mot. Peu importe la manière dont vous choisissez de contribuer, votre aide est grandement appréciée.",
+    
+    "title_who": "Qui sommes nous? 🤔",
+    "content_who": "Melody est développé par <span>Niwer</span> (moi) et mon frère <span>R3DHACK</span>. Nous sommes des étudiants qui adorent écouter de la musique en étudiant ou en travaillant et nous connaissons trop bien la difficulté de trouver un bon lecteur de musique qui soit simple, rapide et gratuit. C'est pourquoi nous avons décidé de créer Melody. Nous voulions faire un lecteur de musique que nous aimerions utiliser nous-mêmes, et nous espérons que vous l'aimerez aussi. Nous cherchons toujours des moyens d'améliorer Melody, alors si vous avez des retours ou des suggestions, n'hésitez pas à nous le faire savoir. Nous serions ravis de vous entendre !",
+
+    "title_donate": "Comment donner? 💸",
+    "content_donate": "Melody est un projet gratuit et open source, vous pouvez donc l'utiliser sans rien payer. Cependant, si vous souhaitez soutenir le projet, vous pouvez faire un don au développeur. Vous pouvez faire un don via <a href=\"https://www.paypal.com/paypalme/\" target=\"_blank\"><span>PayPal</span></a> ou <a href=\"https://www.buymeacoffee.com/\" target=\"_blank\"><span>Buy Me A Coffee</span></a>. Votre don aidera à couvrir les coûts d'hébergement, de domaine, et d'autres dépenses liées au projet. Votre soutien est grandement apprécié.",
+
+    "footer_text": "Site web fait avec ❤️ par Niwer"
+}
